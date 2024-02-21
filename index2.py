@@ -6,6 +6,7 @@
 #cloner174.org@gmail.com
 
 
+import time
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
@@ -17,8 +18,19 @@ from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 
 # Load data
 
-data = pd.read_csv("data/Automobile_data.csv")
+try:
+    
+    data = pd.read_csv("data/Automobile_data.csv")
+    print("The data file called -Automobile_data.csv- was successfully detected and load!")
+    time.sleep(2)
 
+except:
+    
+    print("Please insert the full path to Automobile_data.csv dataset WITHOUT quotes:")
+    path = input().strip()
+    data = pd.read_csv(path)
+    print(" Done! ")
+    time.sleep(2)
 
 
 
