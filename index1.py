@@ -20,7 +20,7 @@ from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 print("Please insert the full path to Automobile_data.csv dataset WITHOUT quotes:")
 
 path = input().strip()
-#path = "/home/admin/Documents/Projects/Python/mis.Unknown/Automobile_data.csv";
+#path = "data/Automobile_data.csv";
 
 
 # Load data
