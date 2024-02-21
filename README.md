@@ -51,4 +51,5 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 `Acknowledgments`
 
-    The repository structure and scripts are designed for educational purposes and can be customized for specific use cases.
+    The repository structure and scripts are designed for educational purposes 
+                                                         and can be customized for specific use cases.
