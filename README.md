@@ -27,7 +27,8 @@ By default, the scripts are configured to work with the car data file. To execut
 
 `bash`
 
-python index1.py
+     python3 -m pip install /path/to/main/directory/of/this/project/requirements.txt
+     python3 index1.py
 
 
 `Custom Dataset`
