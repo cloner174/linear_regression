@@ -9,7 +9,8 @@ Linear Regression Example
 This repository contains Python scripts for implementing different regression models on various datasets, providing insights into model accuracy through visualizations and numerical outputs.
 Repository Structure
 
-    data/: Folder containing datasets. By default, the scripts are adapted for the car data file, but other datasets in this folder can be used.
+    data/: Folder containing datasets. By default, the scripts are adapted for the car data file,
+           But other datasets in this folder can be used.
 
     index1.py: Python script for implementing regression on the chosen dataset.
 
